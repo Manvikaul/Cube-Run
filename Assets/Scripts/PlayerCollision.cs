@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,9 @@ public class PlayerCollision : MonoBehaviour
     void Update()
     {
         
+    }
+    void OnCollisionEnter(UnityEngine.Collision collisionInfo)
+    {
+        Debug.Log(collisionInfo.collider.name);
     }
 }

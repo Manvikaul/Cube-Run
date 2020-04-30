@@ -8,6 +8,11 @@ public class GameManager : MonoBehaviour
     bool gameEnded = false;
     public float delay=1f;
 
+    public void LevelComplete()
+    {
+        Debug.Log("You Won!!");
+    }
+
     public void EndGame()
     {
         if(gameEnded==false)

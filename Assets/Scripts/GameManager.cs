@@ -7,10 +7,11 @@ public class GameManager : MonoBehaviour
 {
     bool gameEnded = false;
     public float delay=1f;
+    public GameObject levelCompUI;
 
     public void LevelComplete()
     {
-        Debug.Log("You Won!!");
+        levelCompUI.SetActive(true);
     }
 
     public void EndGame()

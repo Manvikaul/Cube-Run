@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Credits : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void quit()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Quit!");
+        Application.Quit();
     }
 }

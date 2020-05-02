@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     bool gameEnded = false;
     public float delay=1f;
     public GameObject levelCompUI;
+    public GameObject crash;
 
     public void LevelComplete()
     {
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
         {
             gameEnded = true;
             Debug.Log("GAME OVER!");
+            crash.SetActive(true);
             Invoke("Restart", delay);
         }
         

@@ -2769,6 +2769,11 @@ PrefabInstance:
       propertyPath: crash
       value: 
       objectReference: {fileID: 648286137}
+    - target: {fileID: 8387878677432737543, guid: a3dcc6a55569e9e4d9d6bf7083303086,
+        type: 3}
+      propertyPath: restart
+      value: 
+      objectReference: {fileID: 648286137}
     - target: {fileID: 9164792289238779309, guid: a3dcc6a55569e9e4d9d6bf7083303086,
         type: 3}
       propertyPath: m_Name

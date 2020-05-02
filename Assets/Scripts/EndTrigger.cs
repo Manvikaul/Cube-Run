@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EndTrigger : MonoBehaviour
 {
-    public GameManager gameManager;
+   // public GameManager gameManager;
 
     void OnTriggerEnter()
     {
-        gameManager.LevelComplete();
+        FindObjectOfType<GameManager>().LevelComplete();
     }
 
     

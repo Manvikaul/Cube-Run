@@ -22,13 +22,11 @@ public class GameManager : MonoBehaviour
             gameEnded = true;
             Debug.Log("GAME OVER!");
             crash.SetActive(true);
-            Invoke("Restart", delay);
+
+            //Invoke("Restart", delay);
         }
         
     }
 
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+   
 }

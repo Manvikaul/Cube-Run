@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Level9.unity
     guid: b9bbd0b578353d1459bcc68babf4e074
   - enabled: 1
+    path: Assets/Level10.unity
+    guid: 4efe5abc734975d4da53bf3264309656
+  - enabled: 1
     path: Assets/FinalScene.unity
     guid: 31037ae75831f5b43a879b9a6eed1710
   m_configObjects: {}

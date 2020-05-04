@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     public float delay=1f;
     public GameObject levelCompUI;
     public GameObject crash;
-    public GameObject restart;
 
     public void LevelComplete()
     {
